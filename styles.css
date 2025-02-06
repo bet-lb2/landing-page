@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header, #hero {
+    background-color: #1f2937;
+    padding: 0 150px;
+    color: white;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 600px;
+}
+
+.hero-container {
+    width: 600px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f8faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 25px;
+}
+
+.hero-signup {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.hero-img {
+    width: 600px;
+    height: 400px;
+}
+
+.information-section {
+    padding: 50px 150px 100px;
+
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    width: 200px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 200px 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1f2937;
+}
+
+.quote-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: end;
+}
+
+.signup-section {
+    color: white;
+    padding: 100px 200px;
+}
+
+.signup-panel {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 0 25px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
